@@ -9,19 +9,26 @@ header {
   margin: 0 auto;
   padding: 40px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* or center, if you want it vertically centered next to the buttons */
+}
+.nav-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-right: 5px solid black;
+    padding-right: 40px;
 }
 .main-bar-box {
     border:2px solid black;
     height:100px;
 }
-.about-me {
-    padding: 12px 24px;
-    border: 2px solid black;
-    border-radius: 6px;
-    background-color: white;
-    font-size: 18px;
-    cursor: pointer;
-    margin-bottom: 16px;
+.name {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 100px;
+    white-space: nowrap;
 }
 .projects {
     padding: 12px 24px;
@@ -39,6 +46,7 @@ header {
     background-color: white;
     font-size: 18px;
     cursor: pointer;
+    margin-bottom:16px;
 }
 .header_pic {
 width: 100%;
@@ -47,4 +55,43 @@ width: 100%;
   object-fit: cover;   /* crops instead of squishing/stretching */
   object-position: center; /* adjust to center on the interesting part */
   display: block;
+  filter: contrast(130%); 
+}
+.linkedin {
+    padding: 12px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.email {
+    padding: 12px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.github {
+    padding: 12px 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom:16px;
+    
+}
+.grad-pic-cami {
+    width:40%;
+    height:auto;
+    margin-left: 500px;
+}
+.intro-box {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 20px;
 }
