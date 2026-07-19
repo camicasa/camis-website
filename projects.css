@@ -121,3 +121,9 @@ width: 100%;
 .copy-message-email.show {
   opacity: 1;
 }
+.name {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 100px;
+    white-space: nowrap;
+}
