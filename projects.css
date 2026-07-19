@@ -1,3 +1,5 @@
+/* basic page css */
+
 header {
     text-align:center;
 }
@@ -84,16 +86,6 @@ width: 100%;
     cursor: pointer;
     margin-bottom:16px;
     
-}
-.grad-pic-cami {
-    width:40%;
-    height:auto;
-    margin-left: 500px;
-}
-.intro-box {
-    margin-left: 50px;
-    margin-top: 5px;
-    font-size: 20px;
 }
 /* copy message to clipboard css */
 .copy-message-linkedin {
